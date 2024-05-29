@@ -87,14 +87,14 @@ def sauvola_threshold(img, window_size=25, k=0.2, R=128):
     return result
 
 # Baca gambar
-img = cv2.imread('./input/raw.jpg', 0)
+img = cv2.imread('./input/raw2.jpg', 0)
 
-start_time = time.time()
-# Terapkan metode Sauvola
-result = sauvola_thresholding(img)
-end_time = time.time()
-print(f"Waktu yang diperlukan: {end_time - start_time} detik")
-cv2.imwrite("./result.png", result)
+# start_time = time.time()
+# # Terapkan metode Sauvola
+# result = sauvola_thresholding(img)
+# end_time = time.time()
+# print(f"Waktu yang diperlukan: {end_time - start_time} detik")
+# cv2.imwrite("./result.png", result)
 
 start_time = time.time()
 # Terapkan metode Sauvola
