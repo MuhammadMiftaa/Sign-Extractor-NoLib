@@ -15,9 +15,10 @@ pip install -r requirements.txt
   ##### Manual
   ##### OpenCV lib
 
-### Write Output
+### Output
 
 # Pengembangan
+  Sign Extractor dikembangkan lagi dengan menambah metode Gaussian Blur, Otsu Threshold dan PSNR untuk menilai hasil akhir program.
 
 ### Diagram
 
