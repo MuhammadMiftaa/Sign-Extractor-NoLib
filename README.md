@@ -40,7 +40,7 @@ Gambar dibaca dengan bantuan library cv2
 ### Blur Gaussian
  Setelah gambar dibaca, kernel size yang digunakan secara default berukuran (5,5). Ukuran ini akan digunakan nanti untuk menghitung kernel Gaussian.\
   Gambar tadi akan di beri padding dengan ukuran setengah dari kernel size untuk memudahkan penerapan kernel Gaussian nanti.\
-  Selanjutnya kernel Gaussian akan dihitung, dan diterapkan ke gambar, menghaluskan gambar dan mengurangi noise dengan meratakan nilai piksel di sekitar lokal 
+  Selanjutnya kernel Gaussian akan dihitung dan diterapkan ke gambar. Hasilnya akan menghaluskan dan mengurangi noise gambar dengan meratakan nilai piksel di sekitar lokal 
   yang ditentukan oleh kernel.
   
 ### Metode Sauvola 
