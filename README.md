@@ -36,7 +36,7 @@ Gambar dibaca dengan bantuan library cv2
 ![METODE SAUVOLA (3)](https://github.com/MuhammadMiftaa/Sign-Extractor-NoLib/assets/163877047/13fad650-23ff-4c78-9ae1-eb55b72d9a68)
 
 ### Input Gambar
-  Gambar dibaca dengan bantuan library cv2
+  Gambar dibaca dengan bantuan library cv2. Disini input akan di grayscale.
 ### Blur Gaussian
  Setelah gambar dibaca, kernel size yang digunakan secara default berukuran (5,5). Ukuran ini akan digunakan nanti untuk menghitung kernel Gaussian.\
   Gambar tadi akan di beri padding dengan ukuran setengah dari kernel size untuk memudahkan penerapan kernel Gaussian nanti.\
